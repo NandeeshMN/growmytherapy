@@ -45,20 +45,20 @@ export default function Navbar() {
       <div className="w-full px-8 lg:px-14 py-5 flex items-center justify-between">
         {/* Brand / Logo */}
         <Link href="/" className="flex items-center">
-          <div className="relative w-48 sm:w-56 md:w-64 h-14 sm:h-16">
+          <div className="relative w-60 sm:w-72 md:w-80 lg:w-[320px] h-16 sm:h-20">
             <Image
-              src="https://images.squarespace-cdn.com/content/v1/670423e106da6c036366fd10/7116bf54-a0e1-4128-81d8-24fd9960c7ed/Conejo+Valley+Counseling+Logo.png"
-              alt="Conejo Valley Family Counseling"
+              src="/dr-maya-reynolds-logo.png"
+              alt="Dr. Maya Reynolds - Psychologist Therapy"
               fill
               className="object-contain object-left"
               priority
-              sizes="(max-width: 768px) 200px, 256px"
+              sizes="(max-width: 768px) 280px, 320px"
             />
           </div>
         </Link>
 
         {/* Desktop Navigation */}
-        <nav className="hidden lg:flex items-center space-x-9 text-[0.74rem] tracking-[0.16em] uppercase text-[#2b2b2b] font-normal">
+        <nav className="hidden lg:flex items-center space-x-8 text-[0.74rem] tracking-[0.16em] uppercase text-[#2b2b2b] font-normal">
           <Link
             href="/therapists-newbury-park"
             className="hover:text-stone-500 transition-colors py-2"
@@ -66,25 +66,12 @@ export default function Navbar() {
             About
           </Link>
 
-          {/* Our Team Dropdown */}
-          <div className="relative group">
-            <button className="hover:text-stone-500 transition-colors py-2 uppercase tracking-[0.16em]">
-              Our Team
-            </button>
-            <div className="absolute left-0 top-full pt-2 opacity-0 pointer-events-none group-hover:opacity-100 group-hover:pointer-events-auto transition-all duration-200 ease-in-out">
-              <div className="w-64 bg-[#f6f4ee] shadow-lg rounded-none border border-stone-200/80 py-2">
-                {teamMembers.map((member) => (
-                  <Link
-                    key={member.name}
-                    href={member.href}
-                    className="block px-4 py-2 text-[0.76rem] tracking-normal normal-case text-[#2b2b2b] hover:bg-stone-200/50 transition-colors"
-                  >
-                    {member.name}
-                  </Link>
-                ))}
-              </div>
-            </div>
-          </div>
+          <Link
+            href="/therapists-newbury-park"
+            className="hover:text-stone-500 transition-colors py-2"
+          >
+            My Approach
+          </Link>
 
           {/* Specialties Dropdown */}
           <div className="relative group">
@@ -106,26 +93,6 @@ export default function Navbar() {
             </div>
           </div>
 
-          {/* Methods Dropdown */}
-          <div className="relative group">
-            <button className="hover:text-stone-500 transition-colors py-2 uppercase tracking-[0.16em]">
-              Methods
-            </button>
-            <div className="absolute left-0 top-full pt-2 opacity-0 pointer-events-none group-hover:opacity-100 group-hover:pointer-events-auto transition-all duration-200 ease-in-out">
-              <div className="w-56 bg-[#f6f4ee] shadow-lg rounded-none border border-stone-200/80 py-2">
-                {methods.map((item) => (
-                  <Link
-                    key={item.name}
-                    href={item.href}
-                    className="block px-4 py-2 text-[0.76rem] tracking-normal normal-case text-[#2b2b2b] hover:bg-stone-200/50 transition-colors"
-                  >
-                    {item.name}
-                  </Link>
-                ))}
-              </div>
-            </div>
-          </div>
-
           <Link
             href="/faqs"
             className="hover:text-stone-500 transition-colors py-2"
@@ -133,12 +100,19 @@ export default function Navbar() {
             FAQs
           </Link>
 
-          {/* Contact Button */}
+          <Link
+            href="/contact"
+            className="hover:text-stone-500 transition-colors py-2"
+          >
+            Contact
+          </Link>
+
+          {/* Get Started Button */}
           <Link
             href="/contact"
             className="border border-[#2b2b2b] rounded-full px-6 py-2 text-[0.72rem] uppercase tracking-[0.18em] text-[#2b2b2b] hover:bg-[#2b2b2b] hover:text-[#f6f4ee] transition-all duration-300"
           >
-            Contact
+            Get Started
           </Link>
         </nav>
 
@@ -165,29 +139,13 @@ export default function Navbar() {
             About
           </Link>
 
-          <div className="border-b border-stone-200/60 pb-2">
-            <button
-              onClick={() => setTeamOpen(!teamOpen)}
-              className="w-full flex items-center justify-between py-2 text-sm tracking-[0.14em] uppercase text-[#2b2b2b]"
-            >
-              <span>Our Team</span>
-              <span>{teamOpen ? "-" : "+"}</span>
-            </button>
-            {teamOpen && (
-              <div className="pl-4 space-y-2 mt-1 mb-2">
-                {teamMembers.map((member) => (
-                  <Link
-                    key={member.name}
-                    href={member.href}
-                    onClick={() => setMobileMenuOpen(false)}
-                    className="block text-xs text-stone-700 py-1"
-                  >
-                    {member.name}
-                  </Link>
-                ))}
-              </div>
-            )}
-          </div>
+          <Link
+            href="/therapists-newbury-park"
+            onClick={() => setMobileMenuOpen(false)}
+            className="block py-2 text-sm tracking-[0.14em] uppercase text-[#2b2b2b] border-b border-stone-200/60"
+          >
+            My Approach
+          </Link>
 
           <div className="border-b border-stone-200/60 pb-2">
             <button
@@ -213,30 +171,6 @@ export default function Navbar() {
             )}
           </div>
 
-          <div className="border-b border-stone-200/60 pb-2">
-            <button
-              onClick={() => setMethodsOpen(!methodsOpen)}
-              className="w-full flex items-center justify-between py-2 text-sm tracking-[0.14em] uppercase text-[#2b2b2b]"
-            >
-              <span>Methods</span>
-              <span>{methodsOpen ? "-" : "+"}</span>
-            </button>
-            {methodsOpen && (
-              <div className="pl-4 space-y-2 mt-1 mb-2">
-                {methods.map((item) => (
-                  <Link
-                    key={item.name}
-                    href={item.href}
-                    onClick={() => setMobileMenuOpen(false)}
-                    className="block text-xs text-stone-700 py-1"
-                  >
-                    {item.name}
-                  </Link>
-                ))}
-              </div>
-            )}
-          </div>
-
           <Link
             href="/faqs"
             onClick={() => setMobileMenuOpen(false)}
@@ -245,13 +179,21 @@ export default function Navbar() {
             FAQs
           </Link>
 
+          <Link
+            href="/contact"
+            onClick={() => setMobileMenuOpen(false)}
+            className="block py-2 text-sm tracking-[0.14em] uppercase text-[#2b2b2b] border-b border-stone-200/60"
+          >
+            Contact
+          </Link>
+
           <div className="pt-2">
             <Link
               href="/contact"
               onClick={() => setMobileMenuOpen(false)}
               className="block text-center border border-[#2b2b2b] rounded-full py-2 text-xs uppercase tracking-[0.18em] text-[#2b2b2b]"
             >
-              Contact
+              Get Started
             </Link>
           </div>
         </div>

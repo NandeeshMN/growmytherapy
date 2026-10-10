@@ -4,25 +4,22 @@ import Image from "next/image";
 export default function WhoWeHelpSection() {
   const cards = [
     {
-      title: "Adults",
-      image:
-        "https://images.squarespace-cdn.com/content/v1/670423e106da6c036366fd10/066f60e6-1354-4d47-a586-ab3f2f2ba612/Jennifer+A+-+Images+%288%29.jpg",
+      title: "Anxiety & Overthinking",
+      image: "/Anxiety%20%26%20Overthinking.png",
       description:
-        "Feeling stuck or overwhelmed? We help adults find clarity, build resilience, and move forward with confidence by addressing the root causes of anxiety, stress, and emotional pain.",
+        "For adults who feel caught in cycles of worry, constant mental noise, or the pressure to always have everything under control. Find space to slow down, feel grounded, and reconnect with the present.",
     },
     {
-      title: "Couples",
-      image:
-        "https://images.squarespace-cdn.com/content/v1/670423e106da6c036366fd10/d0157712-388c-4800-aada-c78db97ee966/Jennifer+A+-+Images+%289%29.jpg",
+      title: "Trauma & Past Experiences",
+      image: "/Trauma%20%26%20Past%20Experiences.png",
       description:
-        "Relationships require effort, and we’re here to help you strengthen yours. We guide couples through challenges like communication breakdowns and trust issues, helping you rebuild intimacy and strengthen your relationship.",
+        "For adults carrying the effects of difficult experiences, painful relationships, or long-standing emotional patterns. Work toward a greater sense of safety, understanding, and emotional balance at your own pace.",
     },
     {
-      title: "Children & Teens",
-      image:
-        "https://images.squarespace-cdn.com/content/v1/670423e106da6c036366fd10/d5d62bf4-34a7-4bf4-bf00-e1169863ace7/Jennifer+A+-+Images+%2810%29.jpg",
+      title: "Burnout & Perfectionism",
+      image: "/Burnout%20%26%20Perfectionism.png",
       description:
-        "Kids need support, too. We help them process big emotions, cope with challenging family situations, build coping skills, and feel understood, while also working closely with their parents to create a nurturing environment.",
+        "For professionals, entrepreneurs, and creatives who feel exhausted from constantly pushing themselves. Rediscover your needs, ease the pressure to be perfect, and build a more sustainable way of living.",
     },
   ];
 
@@ -32,8 +29,8 @@ export default function WhoWeHelpSection() {
         {/* Section Heading */}
         <div className="text-left mb-12 md:mb-16">
           <h2 className="text-4xl sm:text-5xl lg:text-[3.4rem] font-serif font-light text-[#2b2b2b]">
-            Who we{" "}
-            <span className="script-accent text-[0.50em] text-[#86b3b3] ml-2.5 sm:ml-3 align-baseline">
+            Who I{" "}
+            <span className="script-accent text-[0.70em] text-[#86b3b3] ml-2.5 sm:ml-3 align-baseline">
               help
             </span>
           </h2>

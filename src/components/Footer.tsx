@@ -36,12 +36,8 @@ export default function Footer() {
                   />
                 </div>
 
-                <p className="text-[12px] sm:text-[12.5px] text-[#404040] font-light leading-[1.7] w-full pl-0.5">
-                  We want to make getting started simple. You’re welcome to come
-                  <br className="hidden sm:inline" />
-                  {" "}into our office in Newbury Park or schedule virtual appointments
-                  <br className="hidden sm:inline" />
-                  {" "}from anywhere in CA—whatever works best for you.
+                <p className="text-[12px] sm:text-[12.5px] text-[#404040] font-light leading-[1.7] w-full">
+                  We make getting started feel simple and comfortable. Visit my office in Santa Monica or schedule a secure virtual therapy session from anywhere in California. We&apos;ll find an approach that fits your needs and feels right for you.
                 </p>
               </div>
             </div>

@@ -9,24 +9,24 @@ export default function HopeSection() {
           {/* Left Text Area */}
           <div className="lg:col-span-7 space-y-9">
             <h2 className="text-3xl sm:text-4xl lg:text-[3.2rem] font-serif font-light text-[#2b2b2b] leading-[1.18]">
-              You’re holding onto hope that life can be better than it is right now.
+              You deserve a life that feels calmer, fuller, and more like your own.
             </h2>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-10 items-start">
               {/* Left Sub-column */}
               <div className="space-y-5">
                 <p className="text-[0.82rem] tracking-[0.14em] uppercase text-[#2b2b2b] font-normal leading-relaxed">
-                  AT CONEJO VALLEY FAMILY COUNSELING WE WANT TO MAKE THAT HOPE A REALITY.
+                  THERAPY THAT MEETS YOU WITH UNDERSTANDING AND CARE.
                 </p>
                 <p className="text-[#444444] font-light text-[0.96rem] leading-[1.75]">
-                  Whether you&apos;re an adult seeking personal growth, looking to work through your trauma, a couple working on your relationship, or a parent looking for support for your child, we provide a compassionate and safe space to help you navigate all of life’s ups and downs.
+                  Whether you&apos;re navigating anxiety, working through past experiences, or feeling exhausted by the pressure to keep everything together, you deserve a space where you can slow down and feel understood.
                 </p>
               </div>
 
               {/* Right Sub-column */}
               <div>
                 <p className="text-[#444444] font-light text-[0.96rem] leading-[1.75]">
-                  First and foremost, we believe what you’re going through is real, valid, and worthy of support. Our team offers clients in the Newbury Park area and across CA an environment to discover a new life and a deeper sense of self in the midst of their struggles. As we tap into the power of connection and understanding, you can find your footing again and take a transformative path forward.
+                  You don&apos;t have to figure everything out on your own. Together, we can create space for reflection, build practical tools for everyday life, and help you move toward greater balance, resilience, and connection with yourself.
                 </p>
               </div>
             </div>

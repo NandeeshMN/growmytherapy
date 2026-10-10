@@ -4,28 +4,28 @@ import Link from "next/link";
 export default function SpecialtiesSection() {
   const specialties = [
     {
-      title: "Trauma",
+      title: "Anxiety & Overthinking",
       description:
-        "We don’t always know when and how we’ve experienced trauma. In therapy, we’ll work together to help you process your past, understand what’s causing you to stay “stuck,” and regain a sense of safety, control, and hope. You don’t have to carry your burdens alone.",
+        "When your mind rarely slows down, even everyday decisions can feel overwhelming. Therapy can help you recognize patterns of worry, manage anxious thoughts, and develop practical tools to feel calmer and more present in your daily life.",
+      href: "/anxiety-depression",
+    },
+    {
+      title: "Trauma & EMDR",
+      description:
+        "Past experiences can continue to affect your sense of safety, relationships, and emotional well-being. Using EMDR and a carefully paced, supportive approach, we'll work toward processing difficult memories and building a greater sense of stability at a pace that feels right for you.",
       href: "/trauma-counseling-newbury-park",
     },
     {
-      title: "EMDR",
+      title: "Burnout & Chronic Stress",
       description:
-        "Eye Movement Desensitization and Reprocessing (EMDR) is a powerful therapeutic technique that helps process and heal trauma by reworking how painful memories are stored in your brain. This allows you to find relief and move toward lasting healing.",
-      href: "/emdr-therapy-newbury-park",
+        "Constantly pushing yourself to meet expectations can leave you feeling emotionally drained and disconnected from yourself. Therapy can help you recognize the patterns contributing to burnout, establish healthier boundaries, and create a more sustainable balance between work and life.",
+      href: "/anxiety-depression",
     },
     {
-      title: "Dissociation",
+      title: "Perfectionism & Emotional Regulation",
       description:
-        "The feeling of losing time, hearing conflicting voices, or questioning your sense of self can be overwhelming. In therapy, we’ll help you understand these experiences, recognize your own triggers, and create a sense of balance and identity so that you can feel more grounded.",
-      href: "/dissociative-identity-disorder-therapist-newbury-park",
-    },
-    {
-      title: "Special Needs Parenting",
-      description:
-        "Parenting a child with special needs presents unique challenges and complex emotions. We provide compassionate support through lived experience and expertise to help you navigate this journey with tools, understanding, and self-care.",
-      href: "/counseling-special-needs-parents-newbury-park",
+        "When the pressure to get everything right becomes exhausting, it can be difficult to rest or feel satisfied with what you've accomplished. Together, we'll explore the expectations you place on yourself, develop healthier ways to respond to difficult emotions, and build a more compassionate relationship with yourself.",
+      href: "/anxiety-depression",
     },
   ];
 
@@ -36,8 +36,8 @@ export default function SpecialtiesSection() {
           {/* Left Title matching Screenshot 5 */}
           <div className="lg:col-span-4 lg:sticky lg:top-28">
             <h3 className="text-3xl sm:text-4xl lg:text-[2.8rem] font-serif font-light text-[#2b2b2b] leading-[1.15]">
-              Our{" "}
-              <span className="script-accent text-[1.18em] text-[#86b1b1] block mt-2 mb-2 sm:mt-2.5 sm:mb-2.5">
+              My{" "}
+              <span className="script-accent text-[1.00em] text-[#86b1b1] block mt-2 mb-2 sm:mt-2.5 sm:mb-2.5">
                 specialties
               </span>
               include…

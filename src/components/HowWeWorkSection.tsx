@@ -7,39 +7,29 @@ export default function HowWeWorkSection() {
     <section className="bg-[#dfd4c7] py-20 md:py-28">
       <div className="max-w-[1500px] mx-auto px-6 lg:px-12">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
-          {/* Left Image */}
-          <div className="lg:col-span-5 flex justify-center lg:justify-start">
-            <div className="relative w-full max-w-[460px] aspect-[4/5] shadow-sm overflow-hidden">
-              <Image
-                src="https://images.squarespace-cdn.com/content/v1/670423e106da6c036366fd10/389808ad-7273-4e03-a32b-c172aa735f12/Jennifer+A+-+Images+%286%29.jpg"
-                alt="Counselor portrait"
-                fill
-                className="object-cover object-center"
-                sizes="(max-width: 1024px) 100vw, 460px"
-              />
-            </div>
-          </div>
-
-          {/* Right Text Content */}
-          <div className="lg:col-span-7 space-y-6 text-[#2b2b2b]">
+          {/* Left Text Content */}
+          <div className="lg:col-span-7 space-y-6 text-[#2b2b2b] order-2 lg:order-1">
             <p className="text-[0.74rem] sm:text-[0.78rem] tracking-[0.16em] uppercase font-normal text-[#2b2b2b]">
-              HOW WE WORK
+              HOW I WORK
             </p>
 
-            <h2 className="text-3xl sm:text-4xl lg:text-[3.2rem] font-serif font-light text-[#2b2b2b] leading-[1.18]">
-              We’re here to make a difference.
+            <h2 className="text-2xl sm:text-3xl lg:text-[2.5rem] font-serif font-light text-[#2b2b2b] leading-[1.18]">              Therapy that meets you where you are.
             </h2>
 
             <p className="text-[#2b2b2b] font-normal text-[0.98rem] leading-[1.7] pt-1">
-              The clients we work with are balancing so many things at once, it’s often hard for them to put themselves first.
+              Many of the people I work with spend so much time managing responsibilities, meeting expectations, and pushing through difficult emotions that their own needs get lost along the way.
             </p>
 
             <p className="text-[#3a3a3a] font-light text-[0.96rem] leading-[1.75]">
-              Here, your needs are always top priority. Our team takes the time to deeply listen to our clients in order to truly understand their story and their struggles. We recognize that no two people are the same and that personalized therapy means an intentional, tailored approach. (You won’t find anything “one-size-fits-all” here.) If you’re ready to do the work, we’re ready to help.
+              Therapy offers a space to slow down, feel heard, and understand what you&apos;re experiencing without judgment. I take a personalized, collaborative approach because your experiences, challenges, and goals are uniquely yours. Together, we&apos;ll explore the patterns behind anxiety, trauma, or burnout and find practical ways to navigate them.
             </p>
 
             <p className="text-[#3a3a3a] font-light text-[0.96rem] leading-[1.75]">
-              Sometimes we may gently challenge you to look at things differently and other times we may explore your emotions, all while encouraging you to practice what you’ve learned in your daily life. We take what we do seriously because we know how important it is for you to heal from what’s hurting you, discover a fulfilling life, and build meaningful relationships. Our goal is to walk alongside you in this journey, offering support and guidance as you uncover your strengths and embrace what the future can hold for you.
+              Some sessions may focus on building tools to manage overwhelming thoughts and emotions. Others may create space to process past experiences, understand your responses, or reconnect with parts of yourself you&apos;ve neglected. Using evidence-based approaches such as CBT, EMDR, and mindfulness-based practices, we&apos;ll work at a pace that feels safe and manageable for you.
+            </p>
+
+            <p className="text-[#3a3a3a] font-light text-[0.96rem] leading-[1.75]">
+              My goal isn&apos;t simply to help you get through difficult moments. It&apos;s to help you build lasting resilience, feel more grounded in everyday life, and develop a healthier relationship with yourself. You don&apos;t need to have everything figured out before you begin—we can start wherever you are.
             </p>
 
             <div className="pt-3">
@@ -47,8 +37,21 @@ export default function HowWeWorkSection() {
                 href="/therapists-newbury-park"
                 className="button-underline text-[0.78rem]"
               >
-                LEARN MORE ABOUT US
+                LEARN MORE ABOUT ME
               </Link>
+            </div>
+          </div>
+
+          {/* Right Image */}
+          <div className="lg:col-span-5 flex justify-center lg:justify-end order-1 lg:order-2">
+            <div className="relative w-full max-w-[480px] aspect-square shadow-md rounded-sm overflow-hidden">
+              <Image
+                src="/together.png"
+                alt="Therapy together"
+                fill
+                className="object-cover object-center"
+                sizes="(max-width: 1024px) 100vw, 480px"
+              />
             </div>
           </div>
         </div>

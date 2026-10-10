@@ -3,20 +3,19 @@ import Link from "next/link";
 
 export default function AreasOfExpertiseSection() {
   const col1 = [
-    { title: "DISSOCIATION", href: "/dissociative-identity-disorder-therapist-newbury-park" },
-    { title: "TRAUMA", href: "/trauma-counseling-newbury-park" },
-    { title: "FAMILY CONFLICT", href: null },
-    { title: "SPECIAL NEEDS PARENTING", href: "/counseling-special-needs-parents-newbury-park" },
-    { title: "DEPRESSION", href: "/anxiety-depression" },
-    { title: "MARRIAGE", href: "/couples-therapy" },
+    { title: "ANXIETY & OVERTHINKING", href: "/anxiety-depression" },
+    { title: "PANIC & CHRONIC WORRY", href: "/anxiety-depression" },
+    { title: "TRAUMA & PTSD", href: "/trauma-counseling-newbury-park" },
+    { title: "BURNOUT & CHRONIC STRESS", href: null },
+    { title: "PERFECTIONISM & HIGH ACHIEVEMENT PRESSURE", href: null },
+    { title: "EMOTIONAL REGULATION", href: null },
   ];
 
   const col2 = [
-    { title: "ANXIETY", href: "/anxiety-depression" },
-    { title: "RELATIONSHIPS", href: null },
-    { title: "CHILDREN", href: "/children-and-teens" },
-    { title: "TEENS", href: "/children-and-teens" },
-    { title: "INTIMACY & CONNECTION", href: "/couples-therapy" },
+    { title: "CHILDHOOD & RELATIONSHIP TRAUMA", href: "/trauma-counseling-newbury-park" },
+    { title: "SLEEP DIFFICULTIES & PHYSICAL TENSION", href: null },
+    { title: "SELF-ESTEEM & SELF-CONNECTION", href: null },
+    { title: "MINDFULNESS & RESILIENCE", href: null },
     { title: "...AND MORE.", href: null },
   ];
 
@@ -27,9 +26,9 @@ export default function AreasOfExpertiseSection() {
           {/* Left Title */}
           <div className="lg:col-span-4 pt-2">
             <h3 className="text-3xl sm:text-4xl lg:text-[2.8rem] font-serif font-light text-[#2b2b2b] leading-[1.1]">
-              Our areas of
+              My areas of
               <br />
-              <span className="script-accent text-[0.70em] text-[#86b1b1] mt-1.5 block">
+              <span className="script-accent text-[0.80em] text-[#86b1b1] mt-1.5 block">
                 expertise
               </span>
             </h3>
