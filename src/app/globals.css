@@ -12,11 +12,14 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #2b2b2b;
-  --color-cream: #f6f4ee;
-  --color-sand: #dfd4c7;
-  --color-teal: #86b3b3;
-  --color-dark: #2b2b2b;
+  --foreground: #4a5055;
+  --color-primary: #263b50;
+  --color-secondary: #718779;
+  --color-ivory: #f7f5f0;
+  --color-mist: #e4e9e3;
+  --color-charcoal: #4a5055;
+  --color-border: #d9ded8;
+  --color-dark: #263b50;
   --font-serif: "beaufort-pro", Georgia, serif;
   --font-sans: "gravesend-sans", -apple-system, BlinkMacSystemFont, sans-serif;
   --font-body: "Mulish", sans-serif;
@@ -47,7 +50,7 @@ h1, h2, h3, h4, .font-serif {
   font-family: 'PrintedMoments', cursive !important;
   font-weight: 300 !important;
   font-style: normal !important;
-  color: #86b3b3 !important;
+  color: #718779 !important;
   text-transform: none !important;
   letter-spacing: 0em !important;
   line-height: 0.7em !important;
@@ -67,27 +70,28 @@ h1, h2, h3, h4, .font-serif {
   position: relative;
   display: inline-block;
   padding-bottom: 3px;
-  border-bottom: 1px solid #2b2b2b;
+  border-bottom: 1px solid #263b50;
   letter-spacing: 0.16em;
   text-transform: uppercase;
   font-size: 0.72rem;
   font-weight: 400;
   font-family: var(--font-sans);
-  color: #2b2b2b;
+  color: #263b50;
   transition: all 0.3s ease;
 }
 
 .button-underline:hover {
   border-bottom-color: transparent;
-  opacity: 0.7;
+  color: #718779;
+  opacity: 0.85;
 }
 
 /* Outline button style matching reference */
 .sqs-btn-primary {
   display: inline-block;
   padding: 0.6rem 1.6rem;
-  border: 1px solid #2b2b2b;
-  color: #2b2b2b;
+  border: 1px solid #263b50;
+  color: #263b50;
   font-size: 0.75rem;
   letter-spacing: 0.14em;
   text-transform: uppercase;
@@ -97,6 +101,6 @@ h1, h2, h3, h4, .font-serif {
 }
 
 .sqs-btn-primary:hover {
-  background-color: #2b2b2b;
-  color: #ffffff;
+  background-color: #263b50;
+  color: #f7f5f0;
 }
