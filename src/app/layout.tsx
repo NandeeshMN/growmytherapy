@@ -6,7 +6,8 @@ export const metadata: Metadata = {
   description:
     "Licensed Clinical Psychologist in Santa Monica, CA providing compassionate in-person and California telehealth therapy for adults navigating anxiety, trauma, and burnout.",
   icons: {
-    icon: "/dr-maya-reynolds-logo.png",
+    icon: "/favicon.png",
+    apple: "/favicon.png",
   },
 };
 
