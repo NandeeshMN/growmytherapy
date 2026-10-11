@@ -144,8 +144,14 @@ Open [http://localhost:3000](http://localhost:3000) in your browser to view the 
 
 ## 🌐 Deployment
 
+The project is optimized for zero-configuration deployment on **Vercel**:
 
+1. Push your repository to GitHub / GitLab.
+2. Import the project into [Vercel](https://vercel.com/new).
+3. The build settings are auto-detected (`npm run build`).
+4. Click **Deploy**.
 
+For other hosting providers (Netlify, AWS Amplify, Docker), follow standard Next.js standalone or SSR deployment practices.
 
 ---
 

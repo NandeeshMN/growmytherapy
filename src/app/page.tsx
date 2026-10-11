@@ -1,17 +1,17 @@
-import Navbar from "@/components/Navbar";
-import HeroSection from "@/components/HeroSection";
-import HopeSection from "@/components/HopeSection";
-import WhoWeHelpSection from "@/components/WhoWeHelpSection";
-import QuoteBannerSection from "@/components/QuoteBannerSection";
-import AboutSection from "@/components/AboutSection";
-import AreasOfExpertiseSection from "@/components/AreasOfExpertiseSection";
-import HowWeWorkSection from "@/components/HowWeWorkSection";
-import OurOfficeSection from "@/components/OurOfficeSection";
-import MidpageQuoteSection from "@/components/MidpageQuoteSection";
-import SpecialtiesSection from "@/components/SpecialtiesSection";
-import FAQSection from "@/components/FAQSection";
-import AppointmentCTASection from "@/components/AppointmentCTASection";
-import Footer from "@/components/Footer";
+import Navbar from "@/components/layout/Navbar";
+import Footer from "@/components/layout/Footer";
+import HeroSection from "@/components/sections/HeroSection";
+import HopeSection from "@/components/sections/HopeSection";
+import WhoWeHelpSection from "@/components/sections/WhoWeHelpSection";
+import QuoteBannerSection from "@/components/sections/QuoteBannerSection";
+import AboutSection from "@/components/sections/AboutSection";
+import AreasOfExpertiseSection from "@/components/sections/AreasOfExpertiseSection";
+import HowWeWorkSection from "@/components/sections/HowWeWorkSection";
+import OurOfficeSection from "@/components/sections/OurOfficeSection";
+import MidpageQuoteSection from "@/components/sections/MidpageQuoteSection";
+import SpecialtiesSection from "@/components/sections/SpecialtiesSection";
+import FAQSection from "@/components/sections/FAQSection";
+import AppointmentCTASection from "@/components/sections/AppointmentCTASection";
 
 export default function Home() {
   return (

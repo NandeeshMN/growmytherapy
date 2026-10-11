@@ -5,21 +5,21 @@ export default function WhoWeHelpSection() {
   const cards = [
     {
       title: "Anxiety & Panic Therapy",
-      image: "/Anxiety%20%26%20Overthinking.png",
+      image: "/images/Anxiety%20%26%20Overthinking.png",
       alt: "Person reflecting thoughtfully outdoors",
       description:
         "For adults who feel caught in cycles of worry, constant mental noise, or the pressure to always have everything under control. Find space to slow down, feel grounded, and reconnect with the present.",
     },
     {
       title: "Trauma & EMDR Therapy",
-      image: "/Trauma%20%26%20Past%20Experiences.png",
+      image: "/images/Trauma%20%26%20Past%20Experiences.png",
       alt: "Person with hand placed gently over heart in a grounding gesture",
       description:
         "For adults carrying the effects of difficult experiences, painful relationships, or long-standing emotional patterns. Work toward a greater sense of safety, understanding, and emotional balance at your own pace.",
     },
     {
       title: "Burnout & Chronic Stress Support",
-      image: "/Burnout%20%26%20Perfectionism.png",
+      image: "/images/Burnout%20%26%20Perfectionism.png",
       alt: "Person resting forehead on hands at a desk, taking a moment of pause",
       description:
         "For professionals, entrepreneurs, and creatives who feel exhausted from constantly pushing themselves. Rediscover your needs, ease the pressure to be perfect, and build a more sustainable way of living.",

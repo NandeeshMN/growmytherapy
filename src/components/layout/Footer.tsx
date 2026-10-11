@@ -31,7 +31,7 @@ export default function Footer() {
               <div className="w-full max-w-[420px]">
                 <div className="relative w-64 sm:w-72 h-16 sm:h-20 mb-5">
                   <Image
-                    src="/dr-maya-reynolds-logo.png"
+                    src="/images/dr-maya-reynolds-logo.png"
                     alt="Dr. Maya Reynolds, PsyD logo"
                     fill
                     className="object-contain object-left"

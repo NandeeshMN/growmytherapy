@@ -10,7 +10,7 @@ export default function MidpageQuoteSection() {
           <div className="lg:col-span-7">
             <div className="relative w-full aspect-[1200/937] shadow-sm rounded-sm overflow-hidden">
               <Image
-                src="/Honoring%20your%20past.png"
+                src="/images/Honoring%20your%20past.png"
                 alt="Serene coastal nature landscape with calm waters"
                 fill
                 className="object-cover object-center"

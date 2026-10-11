@@ -12,7 +12,7 @@ export default function AboutSection() {
           <div className="lg:col-span-5 flex justify-center">
             <div className="relative w-full max-w-[440px] aspect-[2/3] overflow-hidden rounded-sm shadow-sm border border-[#D9DED8]">
               <Image
-                src="/Dr. Maya Reynolds.png"
+                src="/images/Dr. Maya Reynolds.png"
                 alt="Dr. Maya Reynolds, PsyD - Licensed Clinical Psychologist"
                 fill
                 priority

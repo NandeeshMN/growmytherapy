@@ -47,7 +47,7 @@ export default function HowWeWorkSection() {
           <div className="lg:col-span-5 flex justify-center lg:justify-end order-1 lg:order-2">
             <div className="relative w-full max-w-[480px] aspect-square shadow-md rounded-sm overflow-hidden border border-[#D9DED8]">
               <Image
-                src="/together.png"
+                src="/images/together.png"
                 alt="Two people seated in a calm, collaborative conversation"
                 fill
                 className="object-cover object-center"

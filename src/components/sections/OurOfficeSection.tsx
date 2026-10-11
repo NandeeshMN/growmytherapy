@@ -27,7 +27,7 @@ export default function OurOfficeSection() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-10">
           <div className="relative w-full aspect-[4/3] rounded-sm overflow-hidden shadow-sm border border-[#D9DED8]">
             <Image
-              src="/office1.jpeg"
+              src="/images/office1.jpeg"
               alt="Sunlit therapy office seating area with comfortable armchairs and warm natural light"
               fill
               className="object-cover object-center"
@@ -36,7 +36,7 @@ export default function OurOfficeSection() {
           </div>
           <div className="relative w-full aspect-[4/3] rounded-sm overflow-hidden shadow-sm border border-[#D9DED8]">
             <Image
-              src="/office2.jpeg"
+              src="/images/office2.jpeg"
               alt="Quiet counseling space with soothing neutral decor and natural light"
               fill
               className="object-cover object-center"

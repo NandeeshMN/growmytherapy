@@ -22,7 +22,7 @@ export default function Navbar() {
         <Link href="/" className="flex items-center">
           <div className="relative w-60 sm:w-72 md:w-80 lg:w-[320px] h-16 sm:h-20">
             <Image
-              src="/dr-maya-reynolds-logo.png"
+              src="/images/dr-maya-reynolds-logo.png"
               alt="Dr. Maya Reynolds, PsyD logo"
               fill
               className="object-contain object-left"

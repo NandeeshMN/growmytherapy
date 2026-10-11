@@ -8,7 +8,7 @@ export default function HeroSection() {
       {/* Background Image Matching Reference */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/hero-therapy-office.jpg"
+          src="/images/hero-therapy-office.jpg"
           alt="Sunlit therapy office interior with comfortable seating and natural light"
           fill
           priority
